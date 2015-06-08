@@ -1,0 +1,27 @@
+/.metadata/
+
+target/
+/target/
+*/target/
+*/*/target/
+*/*/*/target/
+*/*/*/*/target/
+*/*/*/*/*/target/
+
+/bin/
+*/bin/
+*/*/bin/
+*/*/*/bin/
+*/*/*/*/bin/
+*/*/*/*/*/bin/
+
+logs
+*.log
+*.logs
+
+ehthumbs.db
+Thumbs.db
+
+
+# 在上面的规则中加入一条例外，即不要忽略.gitignore文件
+!.gitignore
